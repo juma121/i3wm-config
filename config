@@ -205,3 +205,5 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 
 # Add dock-bar "latte-dock"
 exec_always --no-startup-id latte-dock
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
